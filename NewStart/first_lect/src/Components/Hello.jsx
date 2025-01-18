@@ -1,6 +1,16 @@
-function Hello (){
+
+
+function Hello (props){
+   
+    
+
     return (
-        <h1>i ma good hello there</h1>
+        <div>
+        <h1>i ma good {props.message} {props.name} {props.emoji}
+
+            {props.seatNumber}
+        </h1>
+        </div>
     )
 }
 
