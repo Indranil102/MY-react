@@ -1,12 +1,19 @@
 
 
-const FruitComponent = ({name, price}) => {
+const FruitComponent = ({name, price, soldout}) => {
 
 
   return (
-    <div>
-      {name} {price}
-    </div>
+    <>
+    
+      {/* {name} {price} */}
+      {/* {price>5 ? (<li>{name} {price}</li>) : null} */}
+
+      <li>
+      {name} {price} {soldout? "soldout": ""}
+      </li>
+    
+    </>
   )
 }
 

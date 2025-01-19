@@ -1,6 +1,6 @@
 
 import Fruits from "./Components/Fruits"
-
+import ConditionalComponent from "./Components/ConditionalComponent"
 function App() {
   
   const  person ={
@@ -16,6 +16,8 @@ function App() {
       <div>
         hlo world
         </div>
+        <ConditionalComponent/>
+      
         <Fruits/>
 
         
