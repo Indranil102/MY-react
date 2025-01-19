@@ -1,6 +1,7 @@
 
 import Fruits from "./Components/Fruits"
 import ConditionalComponent from "./Components/ConditionalComponent"
+import Message from "./Components/Message"
 function App() {
   
   const  person ={
@@ -19,6 +20,7 @@ function App() {
         <ConditionalComponent/>
       
         <Fruits/>
+        <Message/>
 
         
         
