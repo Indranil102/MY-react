@@ -2,11 +2,15 @@
 import './App.css'
 
 function App() {
+
+  
   
 
   return (
     <>
-      <h1 className='bg-black text-yellow-200'>sc</h1>
+      <h1 className='bg-black text-yellow-200'>
+
+      </h1>
     </>
   )
 }

@@ -6,9 +6,7 @@ function Hello (props){
 
     return (
         <div>
-        <h1>i ma good {props.message} {props.name} {props.emoji}
-
-            {props.seatNumber}
+        <h1>{props.person.name }{props.person.message  } {props.person.seatNumber}
         </h1>
         </div>
     )

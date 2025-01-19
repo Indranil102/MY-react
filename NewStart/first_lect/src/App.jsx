@@ -1,16 +1,24 @@
-import Hello from "./Components/Hello"
 
+import Fruits from "./Components/Fruits"
 
 function App() {
-  const seatNumber=[1,4,7];
+  
+  const  person ={
+    name:"Indu ",
+    message:"hi im there for you",
+    seatNumber:[1,2,34,7],
 
+  }
+
+  console.log(person)
   return (
     <>
       <div>
         hlo world
         </div>
+        <Fruits/>
 
-        <Hello name={'Rob'} message={"hii there"} emoji={'em'} seatNumber={seatNumber}/>
+        
         
     </>
   )
